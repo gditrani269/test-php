@@ -32,7 +32,7 @@ objects:
           value: eliminar
         from:
           kind: ImageStreamTag
-          name: java:latest
+          name: php:7.2
           namespace: openshift
       type: Source
     triggers:
